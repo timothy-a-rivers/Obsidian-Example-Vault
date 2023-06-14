@@ -12,6 +12,6 @@ banner_lock: true
 
 ```dataview
 TASK
-FROM "5. Resources/Scripts/Tasks Inbox"
+FROM "_Meta_/Tasks Inbox"
 WHERE !completed
 ```
