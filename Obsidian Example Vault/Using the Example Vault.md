@@ -19,9 +19,9 @@ Obsidian is an incredibly powerful and flexible application. Regardless of if yo
 
 ## Layout and Navigation
 
-### Right Side Bar
+### Left Side Bar
 
-![[Left side bar.png|283]]]
+![[Left side bar.png|283]]
 
 The left side bar contains all of your main navigation buttons as well as showing all of the folders within your vault.
 
