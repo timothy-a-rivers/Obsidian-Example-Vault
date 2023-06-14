@@ -1,0 +1,22 @@
+{
+  "version": 3,
+  "homepages": {
+    "Main Homepage": {
+      "version": 2,
+      "openOnStartup": true,
+      "hasRibbonIcon": true,
+      "openMode": "Replace last note",
+      "manualOpenMode": "Replace last note",
+      "view": "Reading view",
+      "revertView": false,
+      "refreshDataview": true,
+      "autoCreate": false,
+      "autoScroll": false,
+      "pin": false,
+      "value": "_Meta_/Dashboards/Home Dashboard",
+      "kind": "File",
+      "commands": []
+    }
+  },
+  "separateMobile": false
+}

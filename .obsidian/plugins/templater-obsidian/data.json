@@ -1,0 +1,38 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "_Meta_/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "5. Resources/Journal/Daily Notes",
+      "template": "_Meta_/Templates/Daily Template.md"
+    },
+    {
+      "folder": "5. Resources/Journal/Monthly Notes",
+      "template": "_Meta_/Templates/Monthly Template.md"
+    },
+    {
+      "folder": "5. Resources/Journal/Weekly Notes",
+      "template": "_Meta_/Templates/Weekly Template.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

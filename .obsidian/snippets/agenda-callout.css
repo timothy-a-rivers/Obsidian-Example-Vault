@@ -1,0 +1,4 @@
+.callout[data-callout="agenda"] {
+    --callout-color: 48, 77, 18;
+    --callout-icon: lucide-calendar-days;
+}

@@ -1,0 +1,24 @@
+{
+  "promptDelete": false,
+  "spellcheck": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "1. Inbox",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "5. Resources/Attachments",
+  "showInlineTitle": false,
+  "foldHeading": false,
+  "showIndentGuide": false,
+  "defaultViewMode": "source",
+  "readableLineLength": false,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "showFrontmatter": false,
+  "showUnsupportedFiles": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 80
+  }
+}

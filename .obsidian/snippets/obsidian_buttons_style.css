@@ -1,0 +1,19 @@
+.obsidian-button {
+    border: 0.5px solid var(--button-border, #61afef);
+    border-radius: var(--button-border-radius, 5px);
+    background-color: var(--button-background);
+    padding: 10px 30px;
+    color: var(--button-text);
+    text-decoration: none;
+    font-size: var(--button-size);
+    margin: 0 5px;
+    box-shadow: 0 1px 3px var(--button-box-shadow, rgba(0, 0, 0, 0.12)),
+      0 1px 2px var(--button-box-shadow, rgba(0, 0, 0, 0.24));
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .obsidian-button:hover {
+    box-shadow: 0 4px 4px var(--button-box-shadow, rgba(0, 0, 0, 0.25)),
+      0 10px 10px var(--button-box-shadow, rgba(0, 0, 0, 0.22));
+    background-color: var(--button-background);
+  }

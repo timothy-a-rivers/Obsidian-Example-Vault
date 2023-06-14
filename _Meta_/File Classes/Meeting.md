@@ -1,0 +1,4 @@
+
+project:: {"type":"Multi","options":{"valuesList":{"1":"Obsidian Vault Example"},"sourceType":"ValuesList","valuesListNotePath":"","valuesFromDVQuery":""}}
+date:: {"type":"Date","options":{"dateFormat":"YYYY-MM-DD","defaultInsertAsLink":"false"}}
+time:: {"type":"Select","options":{"valuesList":{"1":"7:00 AM","2":"7:30 AM","3":"8:00 AM","4":"8:30 AM","5":"9:00 AM","6":"9:30 AM","7":"10:00 AM","8":"10:30 AM","9":"11:00 AM","10":"11:30 AM","11":"12:00 PM","12":"12:30 PM","13":"1:00 PM","14":"1:30 PM","15":"2:00 PM","16":"2:30 PM","17":"3:00 PM","18":"3:30 PM"},"sourceType":"ValuesList","valuesListNotePath":"","valuesFromDVQuery":""}}

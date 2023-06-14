@@ -1,0 +1,4 @@
+.callout[data-callout="vault"] {
+    --callout-color: 30, 87, 151;
+    --callout-icon: lucide-compass;
+}

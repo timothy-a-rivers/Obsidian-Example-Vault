@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "c050bf6c9b31d38b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e34cd2254ffbfcd2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1. Inbox/Untitled.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dae62dade9c672fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "af73264aecdd3413",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70dadf6ece6da6c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "88d11e995b073be8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b1df57570777049",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5
+  },
+  "right": {
+    "id": "0575c64c14e0f184",
+    "type": "split",
+    "children": [
+      {
+        "id": "16f30fb657a616fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3532b9a6eda1a238",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1cbcd528476c5105",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "e1a3c6475c694652",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb7b336c8450ff00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. Inbox/Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed2029ae619792d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. Inbox/Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "65600d63fec69e3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4145cb5612e15d1b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. Inbox/Untitled.md"
+              }
+            }
+          },
+          {
+            "id": "f4354b63f5b1a37d",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "c25027c3f31f8c6f",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "941518539cd6e60c",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "d9f6c5639f14677b",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270.5
+  },
+  "active": "e34cd2254ffbfcd2",
+  "lastOpenFiles": [
+    "4. Resources/Journal/Daily Notes/19-Oct-22 Daily Note.md",
+    "4. Resources/Journal/Daily Notes/05-Oct-22 Daily Note.md",
+    "4. Resources/Journal/Daily Notes/23-Sep-22 Daily Note.md",
+    "1. Inbox/16 Sep 22 - Data Validation Brainstorm continued.md",
+    "1. Inbox/Untitled.md",
+    "3. Areas/Meeting Notes/13 Sep 22 Reporting Weekly Touch-Point.md",
+    "3. Areas/Meeting Notes/13 Sep 22 Subpoena Workload.md",
+    "4. Resources/Journal/Daily Notes/16-Sep-22 Daily Note.md",
+    "4. Resources/Journal/Daily Notes/13-Sep-22 Daily Note.md",
+    "4. Resources/Journal/Daily Notes/12-Sep-22 Daily Note.md"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "moonstone",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "obsidian_buttons_style",
+    "agenda-callout",
+    "MCL Multi Column",
+    "project-callout",
+    "vault-callout"
+  ],
+  "accentColor": "#1970b3",
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "baseFontSize": 16,
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
+}

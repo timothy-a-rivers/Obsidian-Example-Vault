@@ -1,0 +1,48 @@
+/* Make dataview empty/error box much shorter */
+.dataview.dataview-error-box {
+    min-height: 10px;
+}
+ 
+/* Put less emphasis on the dataview table heading */
+.dataview .table-view-tr-header .table-view-th {
+    border-bottom: 1px solid #ccc;
+    color: rgb(128, 128, 128);
+    font-weight: 500;
+    font-size: unset;
+}
+ 
+/* Stylize daily note headers */
+h2[data-heading="Journal"] {
+    color: rgb(218, 51, 0);
+    margin-top: 40px;
+    border-top: 5px solid rgb(218, 51, 0);
+    padding-top: 5px;
+}
+ 
+h2[data-heading="Tasks Due Today"] {
+    color: rgb(223, 147, 34);
+    margin-top: 50px;
+    border-top: 5px solid rgb(223, 147, 34);
+    padding-top: 5px;
+}
+ 
+h2[data-heading="Other Tasks Completed Today"] {
+    color: rgb(34, 173, 223);
+    margin-top: 50px;
+    border-top: 5px solid rgb(34, 173, 223);
+    padding-top: 5px;
+}
+ 
+h2[data-heading="Created Today"] {
+    color: rgb(138, 188, 0);
+    margin-top: 50px;
+    border-top: 5px solid rgb(138, 188, 0);
+    padding-top: 5px;
+}
+ 
+h2[data-heading="Last Modified Today"] {
+    color: rgb(88, 72, 171);
+    margin-top: 50px;
+    border-top: 5px solid rgb(88, 72, 171);
+    padding-top: 5px;
+}

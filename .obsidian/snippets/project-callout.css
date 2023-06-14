@@ -1,0 +1,4 @@
+.callout[data-callout="project"] {
+    --callout-color: 192, 122, 23;
+    --callout-icon: lucide-building-2;
+}

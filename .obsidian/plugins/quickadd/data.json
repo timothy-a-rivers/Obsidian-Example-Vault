@@ -1,0 +1,300 @@
+{
+  "choices": [
+    {
+      "id": "7d3b8fbb-15b5-4c1b-b394-fb567065e180",
+      "name": "+ Project",
+      "type": "Macro",
+      "command": true,
+      "macroId": "da2bbc0e-cc90-4432-9cc9-46028762fb56"
+    },
+    {
+      "id": "bd26705d-8cf5-43ac-9bfb-ea8d86c05bda",
+      "name": "New Person",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_Meta_/Templates/People Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:Person Name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "4. Areas/Contacts"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "60e43bf0-bb5c-4463-ba3c-2a94e810b9dd",
+      "name": "New Meeting",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_Meta_/Templates/Meeting Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}} {{VALUE:Meeting Name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "4. Areas/Meeting Notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "416227e8-6a16-4ca5-93dd-1c8b425d2661",
+      "name": "Task to Project",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "3. Projects/{{VALUE:Project Name}}/{{VALUE:Project Name}} - Tasks",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{VALUE:Task Name}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "ae1b4c65-0a1e-4117-8042-7e39c343abbc",
+      "name": "Task to Inbox",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "_Meta_/Tasks Inbox.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{VALUE:Task Name}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "e82265a4-3ba8-4c00-b05f-788606b79f35",
+      "name": "New Email",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_Meta_/Templates/Email Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:Email Subject}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "4. Areas/Email Notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "e05fc3dc-1b9c-4643-bd86-e1f304073b4c",
+      "name": "New Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_Meta_/Templates/New Note Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:Note Name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "1. Inbox"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "+ Project",
+      "id": "da2bbc0e-cc90-4432-9cc9-46028762fb56",
+      "commands": [
+        {
+          "name": "New Project",
+          "type": "NestedChoice",
+          "id": "13a2f9df-02aa-4618-a434-723f696ecdf3",
+          "choice": {
+            "id": "c4ed9efe-da06-43b0-ad40-37c501620fb5",
+            "name": "New Project",
+            "type": "Template",
+            "command": false,
+            "templatePath": "_Meta_/Templates/Project Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Project Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "3. Projects/{{VALUE:Project Name}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "Create Project Tasks Page",
+          "type": "NestedChoice",
+          "id": "ef8b4065-22bd-4c14-8361-701b4a442c26",
+          "choice": {
+            "id": "8ba19756-77f6-4678-8377-32fba5450dee",
+            "name": "Create Project Tasks Page",
+            "type": "Template",
+            "command": false,
+            "templatePath": "_Meta_/Templates/Project Tasks Page.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Project Name}} - Tasks"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "3. Projects/{{VALUE:Project Name}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.0.2",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}
