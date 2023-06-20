@@ -37,7 +37,8 @@ hide backlinks
 
 const query = `TABLE WITHOUT ID day AS "Day", IT_Mod AS "Modernization Hours", Mod_Summary AS "Summary"
 FROM "5. Resources/Journal/Daily Notes"
-WHERE week = "<% tp.file.title %>"`
+WHERE week = "<% tp.file.title %>"
+SORT file.name ASC`
 
 const TotalRow = "Total:";
 
