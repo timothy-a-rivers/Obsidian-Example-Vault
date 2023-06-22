@@ -17,6 +17,7 @@ purpose: {{VALUE:Meeting Purpose}}
 
 ## 👥 Attendees
 ---
+
 | **Name** | **Office** | **Title** |
 | -------- | ---------- | --------- |
 |          |            |           |
