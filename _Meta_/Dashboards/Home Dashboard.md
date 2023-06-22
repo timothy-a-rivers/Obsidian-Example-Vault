@@ -79,8 +79,7 @@ purpose AS "Summary"
 FROM "4. Areas/Meeting Notes"
 WHERE file.name != "Meeting Notes"
 WHERE date >= date(today) AND date <= date(today)+dur(3days)
-SORT time DESCENDING
-SORT date ASCENDING
+SORT date ASC, time ASC
 LIMIT 10
 ```
 
@@ -94,7 +93,7 @@ purpose AS "Summary"
 FROM "4. Areas/Meeting Notes"
 WHERE file.name != "Meeting Notes"
 WHERE date < date(today) AND date >= date(today) - dur(3days)
-SORT file.path ASCENDING
+SORT date ASC, time ASC
 LIMIT 10
 ```
 
